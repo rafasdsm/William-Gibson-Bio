@@ -1,0 +1,219 @@
+@font-face{
+    font-family: "Neuromancer";
+    src:url('Interstate-regular-cond.ttf')
+}
+*{
+    box-sizing: content-box;
+    margin:0;
+    font-family: 'Neuromancer';
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTAINER DA IMAGEM DO ÓCULOS */
+
+.imagediv-card-container{
+    width: 100%;
+    height: 60em;
+    background-image: url('images/d25ce1e0b6098f0e440f60b8812171b2.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.imagediv-card-container h1{
+    margin-top: auto;
+    font-size: 100px;
+    color:yellow;
+    font-family: "Neuromancer";
+}
+.imagediv-card-container p{
+    color:yellow;
+    font-size:50px;
+    text-decoration: underline;
+    font-family: "Neuromancer";
+    margin-bottom: auto;
+}
+
+/* SEPARADOR ENTRE A IMAGEM ÓCULOS COM A BIO DO GIBSON */
+
+.colorseparator-container{
+    width: 100%;
+    padding-bottom:6vh;
+    padding-top:6vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorseparator-container h1{
+    font-family: 'Neuromancer';
+    color:black;
+    text-align: center;
+    font-size: 40px;
+}
+
+#yellow{
+    background-image: url('images/yellow\ separator.png');
+}
+
+/* CARD DA BIO DO GIBSON */
+
+.bio-card-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding-left:4vh;
+    padding-right: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+    background-image: url('images/monalisa.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000CD;
+    border-radius: 15em;
+    padding:10px;
+}
+
+.bio-headerimage-container{
+    margin-right: 2vh;
+}
+
+.bio-headerimage-container img{
+    width: 15em;
+    border-top-left-radius: 15em;
+    border-bottom-left-radius: 15em;
+}
+
+.bio-text-container p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 97%;
+}
+
+/* SEPARADOR PARA O NEUROMANCER */
+
+#pink{
+    background-image: url('images/pink\ separator.png');
+}
+#pink h1{
+    color:yellow;
+}
+
+/* CONTAINER NEUROMANCER */
+
+.book-card-container{
+    background-color: #0099ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:2em;
+}
+.book-image-container img{
+    width: 15em;
+}
+
+.book-text-container p{
+    margin-left: 2vh;
+    text-align: justify;
+    font-size: 25px;
+    color:white;
+}
+
+
+/* PURPLE SEPARATOR*/
+
+#purple{
+    background-image: url('images/purple\ separator.png');
+}
+#purple h1{
+    color:white;
+}
+
+/* COUNT ZERO CARD*/
+
+#countzero-card-container{
+    background-color: #ff5757;
+}
+#countzero-card-container p{
+    color:white;
+}
+
+/* ORANGE SEPARATOR*/
+
+#orange{
+    background-image: url('images/orange\ separator.png');
+}
+
+/* MONALISA CARD*/
+
+#monalisa-card-container{
+    background-color: lightcoral;
+}
+
+#monalisa-card-container p{
+    color:white
+}
+
+.CYBERPUNK-CONTAINER{
+    padding-top: 4vh;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/Cyberpunk2077_I_make_my_own_rules_RGB-EN.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.CYBERPUNK-CONTENT-CONTAINER{
+    background-color: yellow;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 90%;
+    padding:4vh;
+}
+.CYBERPUNK-CONTENT-CONTAINER p{
+    text-align: justify;
+    width: 98%;
+    color:black;
+    font-size: 30px;
+}
+
+
+footer{
+    background-color: #00CEC8;
+    color:black;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: underline;
+    color:black;
+    transition:500ms ease;
+}
+footer a:hover{
+    text-decoration: underline;
+    color:white;
+}
